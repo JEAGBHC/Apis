@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using BibliotecaAPI.DTO;
+using BibliotecaAPI.Entidades;
 using webApi.DTOs;
 using webApi.Entidades;
 
@@ -25,6 +27,9 @@ namespace webApi.Utilidades
             CreateMap<Libro, LibroConAutorDtO>()
                     .ForMember(dto => dto.AutorNombre,
                     config => config.MapFrom(ent => $"{ent.Autor!.Nombres} {ent.Autor.Apellidos}"));
+
+
+            CreateMap<Usuario, UsuarioDtO>();
 
 
         }

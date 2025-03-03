@@ -14,7 +14,7 @@ namespace webApi.Controllers
     [ApiController]
     [Route("api/Autores")]
     //valor para usuar el autorizado, solo personas logueadas podran acceder a este controlador 
-    [Authorize (Policy ="esadmin")]
+    //[Authorize (Policy ="esadmin")]
     public class AutoresControllers : ControllerBase
     {
 

@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
+﻿using BibliotecaAPI.Entidades;
+using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using webApi.Entidades;
 
 namespace webApi.Datos
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<Usuario>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
             
@@ -22,6 +23,7 @@ namespace webApi.Datos
 
         public DbSet<Autor> Autores { get; set; }
         public DbSet<Libro> Libros { get; set; }
-    
+       
+
     }
 }

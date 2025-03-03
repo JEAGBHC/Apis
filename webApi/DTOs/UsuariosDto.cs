@@ -1,4 +1,4 @@
-﻿﻿namespace BibliotecaAPI.DTOs
+﻿﻿namespace BibliotecaAPI.DTO
 {
     public class UsuarioDtO
     {
