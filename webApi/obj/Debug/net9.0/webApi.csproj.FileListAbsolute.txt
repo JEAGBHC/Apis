@@ -155,6 +155,7 @@ C:\Users\300027\Desktop\proyectos\webApi\webApi\obj\Debug\net9.0\webApi.Assembly
 C:\Users\300027\Desktop\proyectos\webApi\webApi\obj\Debug\net9.0\webApi.AssemblyInfo.cs
 C:\Users\300027\Desktop\proyectos\webApi\webApi\obj\Debug\net9.0\webApi.csproj.CoreCompileInputs.cache
 C:\Users\300027\Desktop\proyectos\webApi\webApi\obj\Debug\net9.0\webApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\300027\Desktop\proyectos\webApi\webApi\obj\Debug\net9.0\webApi.sourcelink.json
 C:\Users\300027\Desktop\proyectos\webApi\webApi\obj\Debug\net9.0\scopedcss\bundle\webApi.styles.css
 C:\Users\300027\Desktop\proyectos\webApi\webApi\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\300027\Desktop\proyectos\webApi\webApi\obj\Debug\net9.0\staticwebassets.development.json

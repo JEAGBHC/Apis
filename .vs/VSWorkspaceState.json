@@ -4,7 +4,7 @@
     "\\webApi",
     "\\webApi\\Controllers",
     "\\webApi\\Entidades",
-    "\\webApi\\Utilidades"
+    "\\webApi\\Servicios"
   ],
   "SelectedNode": "\\webApi.sln",
   "PreviewInSolutionExplorer": false

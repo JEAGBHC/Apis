@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\datos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\datos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\servicios\\iserviciosusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\servicios\\iserviciosusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\servicios\\serviciosususarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\servicios\\serviciosususarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\controllers\\seguridadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\controllers\\seguridadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\servicios\\serviciohash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\servicios\\serviciohash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\controllers\\autorescontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\controllers\\autorescontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\servicios\\iserviciohash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\servicios\\iserviciohash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\dtos\\resultadohashdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\dtos\\resultadohashdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\dtos\\editarclaimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\dtos\\editarclaimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|c:\\users\\300027\\desktop\\proyectos\\webapi\\webapi\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB164AB2-ABB4-4E7C-9F21-08D10A256007}|webApi\\webApi.csproj|solutionrelative:webapi\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Entidades\\Usuario.cs",
               "RelativeDocumentMoniker": "webApi\\Entidades\\Usuario.cs",
               "ToolTip": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Entidades\\Usuario.cs",
               "RelativeToolTip": "webApi\\Entidades\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T20:14:29.471Z",
               "IsPinned": true,
@@ -64,93 +64,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServiciosUsusarios.cs",
-              "DocumentMoniker": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Servicios\\ServiciosUsusarios.cs",
-              "RelativeDocumentMoniker": "webApi\\Servicios\\ServiciosUsusarios.cs",
-              "ToolTip": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Servicios\\ServiciosUsusarios.cs",
-              "RelativeToolTip": "webApi\\Servicios\\ServiciosUsusarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T22:13:31.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IServiciosUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Servicios\\IServiciosUsuarios.cs",
-              "RelativeDocumentMoniker": "webApi\\Servicios\\IServiciosUsuarios.cs",
-              "ToolTip": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Servicios\\IServiciosUsuarios.cs",
-              "RelativeToolTip": "webApi\\Servicios\\IServiciosUsuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ServicioHash.cs",
+              "DocumentMoniker": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Servicios\\ServicioHash.cs",
+              "RelativeDocumentMoniker": "webApi\\Servicios\\ServicioHash.cs",
+              "ToolTip": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Servicios\\ServicioHash.cs",
+              "RelativeToolTip": "webApi\\Servicios\\ServicioHash.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T22:13:26.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Datos\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "webApi\\Datos\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Datos\\ApplicationDbContext.cs",
-              "RelativeToolTip": "webApi\\Datos\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:54:53.419Z",
+              "WhenOpened": "2025-03-04T16:02:19.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "webApi\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "webApi\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAwwC8AAAAfAAAAAAAAAA==",
+              "Title": "SeguridadController.cs",
+              "DocumentMoniker": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Controllers\\SeguridadController.cs",
+              "RelativeDocumentMoniker": "webApi\\Controllers\\SeguridadController.cs",
+              "ToolTip": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Controllers\\SeguridadController.cs",
+              "RelativeToolTip": "webApi\\Controllers\\SeguridadController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:32:57.461Z",
+              "WhenOpened": "2025-03-04T14:54:31.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IServicioHash.cs",
+              "DocumentMoniker": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Servicios\\IServicioHash.cs",
+              "RelativeDocumentMoniker": "webApi\\Servicios\\IServicioHash.cs",
+              "ToolTip": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Servicios\\IServicioHash.cs",
+              "RelativeToolTip": "webApi\\Servicios\\IServicioHash.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T16:17:44.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ResultadoHashDto.cs",
+              "DocumentMoniker": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\DTOs\\ResultadoHashDto.cs",
+              "RelativeDocumentMoniker": "webApi\\DTOs\\ResultadoHashDto.cs",
+              "ToolTip": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\DTOs\\ResultadoHashDto.cs",
+              "RelativeToolTip": "webApi\\DTOs\\ResultadoHashDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T16:00:39.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Program.cs",
               "RelativeDocumentMoniker": "webApi\\Program.cs",
               "ToolTip": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Program.cs",
               "RelativeToolTip": "webApi\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAcwHoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADAAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:02:55.467Z",
+              "WhenOpened": "2025-03-03T22:23:28.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EditarClaimDto.cs",
-              "DocumentMoniker": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\DTOs\\EditarClaimDto.cs",
-              "RelativeDocumentMoniker": "webApi\\DTOs\\EditarClaimDto.cs",
-              "ToolTip": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\DTOs\\EditarClaimDto.cs",
-              "RelativeToolTip": "webApi\\DTOs\\EditarClaimDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:36:32.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AutoresControllers.cs",
-              "DocumentMoniker": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Controllers\\AutoresControllers.cs",
-              "RelativeDocumentMoniker": "webApi\\Controllers\\AutoresControllers.cs",
-              "ToolTip": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Controllers\\AutoresControllers.cs",
-              "RelativeToolTip": "webApi\\Controllers\\AutoresControllers.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:31:47.653Z",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "webApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\appsettings.Development.json",
+              "RelativeToolTip": "webApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-04T15:57:08.698Z",
               "EditorCaption": ""
             },
             {
@@ -161,9 +148,22 @@
               "RelativeDocumentMoniker": "webApi\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Properties\\launchSettings.json",
               "RelativeToolTip": "webApi\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-28T19:58:45.744Z",
+              "WhenOpened": "2025-03-04T15:57:04.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "webApi\\Controllers\\LibrosController.cs",
+              "ToolTip": "C:\\Users\\300027\\Desktop\\proyectos\\webApi\\webApi\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "webApi\\Controllers\\LibrosController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T15:24:07.423Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas</title>
+</head>
+<body>
+    <h1>Pruebas dentro del Web API (Presiona F12)</h1>
+    <script>
+
+const urlWebAPI ='https://localhost:5000/api/autores';
+consumirWebAPI();
+async function consumirWebAPI(){
+
+    const respuesta =await fetch(urlWebAPI, {
+        method: 'GET',
+        headers: {
+            'content-Type': 'application/json'
+        }
+    });
+      const json = await respuesta.text();
+      console.log(json);
+
+}
+    </script>
+    
+</body>
+</html>
