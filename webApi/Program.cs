@@ -11,8 +11,30 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using webApi.Datos;
+using webApi.Servicios;
+
 var builder = WebApplication.CreateBuilder(args);
+
+///este servicio nos permite acceder  realizar peticiones desde cualquier otro punto de acceso 
+///
+var origenesPermitidos = builder.Configuration.GetSection("origenesPermitidos").Get<string[]>()!;
+builder.Services.AddCors(opciones =>
+{
+    opciones.AddDefaultPolicy(opcionesCORS =>
+    {
+        //opcionesCORS.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()
+        opcionesCORS.WithOrigins(origenesPermitidos).AllowAnyMethod().AllowAnyHeader()
+        .WithExposedHeaders("mi-cabecera");
+    });
+});
+
+
+
 // Area de servicios
+///servivio para proteger o encriptar
+builder.Services.AddDataProtection();
+
+
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddControllers().AddNewtonsoftJson();
 builder.Services.AddDbContext<ApplicationDbContext>(opciones =>
@@ -24,6 +46,7 @@ builder.Services.AddScoped<UserManager<Usuario>>();
 builder.Services.AddScoped<SignInManager<Usuario>>();
 builder.Services.AddTransient<IServiciosUsuarios, ServiciosUsuarios>();
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddTransient<IServicioHash, ServicioHash>();/// implementamos el servicio hash 
 builder.Services.AddAuthentication().AddJwtBearer(opciones =>
 {
     opciones.MapInboundClaims = false;
@@ -43,6 +66,9 @@ builder.Services.AddAuthorization(opciones =>
 });
 var app = builder.Build();
 // Area de middlewares
+app.UseCors();
+
+
 app.MapControllers();
 app.Run();
 

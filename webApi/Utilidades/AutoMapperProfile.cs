@@ -29,7 +29,7 @@ namespace webApi.Utilidades
                     config => config.MapFrom(ent => $"{ent.Autor!.Nombres} {ent.Autor.Apellidos}"));
 
 
-            CreateMap<Usuario, UsuarioDtO>();
+            CreateMap<Usuario, UsuarioDto>();
 
 
         }

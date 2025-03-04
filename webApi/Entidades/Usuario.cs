@@ -4,6 +4,6 @@ namespace BibliotecaAPI.Entidades
 {
     public class Usuario : IdentityUser
     {
-        public DateTime FechaNacimiento { get; set; }
+        public DateTime? FechaNacimiento { get; set; }
     }
 }

@@ -1,7 +1,10 @@
 ﻿using System.Net.WebSockets;
+using System.Reflection.Metadata.Ecma335;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 using webApi.Datos;
 using webApi.DTOs;
@@ -12,21 +15,63 @@ namespace webApi.Controllers
     [ApiController]
     [Route("api/Libros")]
     //valor para usuar el autorizado, solo personas logueadas podran acceder a este controlador 
-    [Authorize]
+    [Authorize(Policy="esadmin")]
     public class LibrosController : ControllerBase
     {
         private readonly ApplicationDbContext context;
         private readonly IMapper mapper;
+        //para generar un link de tiempo limitado 
+        private readonly ITimeLimitedDataProtector protectorLimitadoPorTiempo;
 
-        public LibrosController(ApplicationDbContext context, IMapper mapper)
+        public LibrosController(ApplicationDbContext context, IMapper mapper,
+            IDataProtectionProvider protectionProvider)
         {
             this.context = context;
             this.mapper = mapper;
+            protectorLimitadoPorTiempo = protectionProvider.CreateProtector("LibrosController")
+                .ToTimeLimitedDataProtector();
         }
+
+        ///metodo para obtener ruta temporal a datos 
+        [HttpGet("listado/obtener-token")]
+        public ActionResult ObtenerTokenListado()
+        {
+          var textoPlano = Guid.NewGuid().ToString();
+          var token =protectorLimitadoPorTiempo.Protect(textoPlano, lifetime: TimeSpan.FromSeconds(30));
+            var url = Url.RouteUrl("ObtenerListadoLibrosUsandoToken",new { token }, "https");
+            return Ok(new { url });
+        
+        }
+        //este lo usara cualquier persona que obtenga el token 
+        [HttpGet("listado/{token}", Name= "ObtenerListadoLibrosUsandoToken")]
+        [AllowAnonymous]
+        public async Task<ActionResult> obtenerListadoUsandoToken(string token)
+        {
+            try {
+                protectorLimitadoPorTiempo.Unprotect(token);
+
+            }
+            catch
+            {
+                ModelState.AddModelError(nameof(token), "El token ah expirado");
+
+                return ValidationProblem();     
+            }
+            
+            var libros = await context.Libros.ToListAsync();
+            var LibrosDtO = mapper.Map<IEnumerable<LibroDtO>>(libros);
+            return Ok(LibrosDtO);
+
+
+        }
+
+
+
+
 
         [HttpGet]
         //esto permite ser anonimo, lo que quiere decir que desactiva el Authorize
-        [AllowAnonymous]
+    
         public async Task<IEnumerable<LibroDtO>> Get()
         {
             var  libros= await context.Libros.ToListAsync();

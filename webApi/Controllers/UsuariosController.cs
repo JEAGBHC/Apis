@@ -4,6 +4,7 @@ using System.Security.Claims;
 using System.Text;
 using AutoMapper;
 using Azure.Identity;
+using BibliotecaAPI.DTO;
 using BibliotecaAPI.Entidades;
 using BibliotecaAPI.Servicios;
 using Microsoft.AspNetCore.Authorization;
@@ -11,6 +12,8 @@ using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 using Microsoft.IdentityModel.Tokens;
 using webApi.Datos;
 using webApi.DTOs;
@@ -26,15 +29,34 @@ namespace webApi.Controllers
         private readonly IConfiguration configuration;
         private readonly SignInManager<Usuario> signInManager;
         private readonly IServiciosUsuarios serviciosUsuarios;
+        private readonly ApplicationDbContext context;
+
+        public IMapper Mapper { get; }
 
         public UsuariosController(UserManager<Usuario> userManager, IConfiguration configuration,
-            SignInManager<Usuario> signInManager, IServiciosUsuarios serviciosUsuarios )
+            SignInManager<Usuario> signInManager, IServiciosUsuarios serviciosUsuarios,  ApplicationDbContext context, IMapper mapper )
         {
             this.userManager = userManager;
             this.configuration = configuration;
             this.signInManager = signInManager;
             this.serviciosUsuarios = serviciosUsuarios;
+            this.context = context;
+            Mapper = mapper;
         }
+
+        [HttpGet]
+        [Authorize(Policy ="esadmin")]
+        public async Task<IEnumerable<UsuarioDto>> Get()
+        {
+            var usuarios = await context.Users.ToListAsync();
+            var usuarioDto = Mapper.Map<IEnumerable<UsuarioDto>>(usuarios);
+
+            return usuarioDto;
+        }  
+
+
+
+
 
 
 
@@ -100,7 +122,27 @@ namespace webApi.Controllers
             {
                 return RetornarLoginIncorrecto();
             }
+
         }
+
+        [HttpPut]
+        [Authorize]
+        public async Task<ActionResult> Put(ActualizarUsuarioDto actualizarUsuarioDto) 
+        {
+            var usuario = await serviciosUsuarios.ObtenerUsuario();
+            if (usuario is null)
+            {
+
+                return NotFound();
+            }
+
+            usuario.FechaNacimiento = actualizarUsuarioDto.FechaNacimiento;
+
+            await userManager.UpdateAsync(usuario);
+            return NoContent();
+        }
+
+
 
         [HttpGet("renovar-token")]
         [Authorize(Policy ="esadmin")]
@@ -120,7 +162,7 @@ namespace webApi.Controllers
         }
 
         [HttpPost("hacer-admin")]
-        //[Authorize(Policy = "esadmin")]
+        [Authorize(Policy = "esadmin")]
         public async Task<ActionResult> HacerAdmin(EditarClaimDto editarClaimDto)
         {
             var usuario = await userManager.FindByEmailAsync(editarClaimDto.Email);
